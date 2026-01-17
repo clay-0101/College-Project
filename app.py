@@ -4,6 +4,10 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+
 # Page Config
 st.set_page_config(page_title="SpamGuard AI", page_icon="🛡️", layout="centered")
 
